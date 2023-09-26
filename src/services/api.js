@@ -1,7 +1,7 @@
 function clarifaiRequest(url) {
-  const PAT = "67900a5135eb4d568e18a99946e5825f";
-  const USER_ID = "zakhar_vd";
-  const APP_ID = "my-first-application";
+  const PAT = import.meta.env.VITE_PAT;
+  const USER_ID = import.meta.env.VITE_USER_ID;
+  const APP_ID = import.meta.env.VITE_APP_ID;
   // const MODEL_ID = 'color-recognition';
   const IMAGE_URL = url;
 
